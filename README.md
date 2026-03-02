@@ -14,3 +14,14 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
+## Running the API tests
+
+A new test suite lives in the top‑level `tests/` directory. To execute it:
+
+```bash
+pip install -r requirements.txt   # pytest is required
+pytest
+```
+
+Tests are written with `pytest` and use FastAPI's `TestClient`.
+
